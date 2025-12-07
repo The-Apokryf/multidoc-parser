@@ -1,0 +1,14 @@
+# based on conclusions after analising coolify repos on github
+services:
+  firefox:
+    image: jlesage/firefox
+    environment:
+      - DARK_MODE=1
+      - WEB_FILE_MANAGER=1
+      - FF_OPEN_URL='https://the-apokryf.github.io"
+      - MOZ_MARIONETTE=1
+    volumes:
+      - './_DRIVESET:/config'
+    ports:
+      - 5800:5800
+      - 5900:5900

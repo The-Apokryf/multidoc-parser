@@ -6,6 +6,9 @@ vars:
   GREETING: Hello, World!
 
 tasks:
+  sandbox:
+    cmds:
+      - uv run python -m notebook
   default:
     cmds:
       - echo "{{.GREETING}}"

@@ -1,3 +1,5 @@
 #!/usr/bin/env sh
 
 cat .craft/description.txt > .git/description
+
+echo $PWD

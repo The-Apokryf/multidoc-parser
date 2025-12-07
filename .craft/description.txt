@@ -1,0 +1,2 @@
+multidoc-parser; digitalised documents and books conversion module 
+to prepare data for universal library in OMNILIBRIS project 

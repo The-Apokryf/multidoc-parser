@@ -1,0 +1,11 @@
+{
+    "depend":[
+        "python",
+        "podman",
+        "paramiko",
+        "gitpython",
+        "pyyaml",
+        "requests",
+        "darkpoint"
+    ]
+}

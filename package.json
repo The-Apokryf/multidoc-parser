@@ -1,0 +1,26 @@
+{
+  "name": "multidoc-parser",
+  "version": "1.0.0",
+  "description": "omnilibris",
+  "keywords": [
+    "omnilibris"
+  ],
+  "homepage": "https://github.com/The-Apokryf/multidoc-parser#readme",
+  "bugs": {
+    "url": "https://github.com/The-Apokryf/multidoc-parser/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Apokryf/multidoc-parser.git"
+  },
+  "license": "ISC",
+  "author": "Sett Sarverott",
+  "type": "commonjs",
+  "main": "src/web-snoop/main.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "task"
+  }
+}
